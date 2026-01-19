@@ -1,38 +1,47 @@
-Attendance Eligibility System
-📌 Description
+🔐 Secure Login Validation (Java)
+📌 Project Overview
 
-This Java console application checks whether a student is eligible to attend the examination based on attendance percentage, late entries, and medical certificate availability.
+This project is a console-based Java application that simulates a secure login and entry validation system.
+It validates user input based on multiple real-world conditions such as username length, password strength, age eligibility, and ID verification.
 
-📥 Inputs
+The project demonstrates core Java fundamentals, input handling, conditional logic, and boolean control flow.
 
-The program accepts the following inputs from the user:
+🚀 Features
 
-Attendance Percentage
+Username validation (minimum character length)
 
-Number of Late Days
+Password strength validation
 
-Medical Certificate
+Age eligibility check
 
-1 = No
+ID verification requirement
 
-0 = Yes
+Uses a boolean flag for secure access control
 
-📏 Rules
+Clear success and failure messages
 
-The student is NOT allowed if attendance is below 75% and no medical certificate is provided.
+🛠️ Technologies Used
 
-The student is NOT allowed if the number of late days is more than 3.
+Java
 
-If none of the above conditions fail, the student is allowed to attend the examination.
+Scanner class for user input
 
-📤 Output
+Conditional statements
 
-The program displays clear messages indicating whether the student is allowed or not allowed to attend the examination.
+Boolean logic
 
-Example:
-Allowed to write exam. All the best!
+📂 Program Logic
 
+The program follows these validation steps:
 
-or
+Checks if the username has the required length
 
-Not allowed to write the exam.
+Verifies password length for basic security
+
+Ensures the user meets the minimum age requirement
+
+Confirms the presence of a valid ID
+
+Grants access only if all conditions are satisfied
+
+If any condition fails, access is denied.
